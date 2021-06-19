@@ -1,0 +1,34 @@
+{"intents": [
+        {"tag": "selamlama",
+         "patterns": ["Merhaba","Merhabalar", "Selamlar", "Nasılsın", "Naber", "Selam","Günaydın","kötüyüm","üzgünüm","kendimi pek iyi hissetmiyorum"],
+         "responses": ["Merhabalar :)", "Seni gördüğüme sevindim", "Nasıl yardımcı olabilirim"],
+         "context_set": ""
+        },
+        {"tag": "nedenler",
+         "patterns": ["kötüyüm","üzgünüm","kendimi pek iyi hissetmiyorum"],
+         "responses": ["Neden kötü hissediyorsun", "Neden kötüsün ?", "Nasıl yardımcı olabilirim"],
+         "context_set": ""
+        },
+         {"tag": "hakaret",
+         "patterns": ["sen cirkin birisin","cok cirkin konusuyorsun",""],
+         "responses": ["lutfen konusmalariniza dikkat edin !!", "cirkin olan sensin !", "benimle niye boyle konusuyorsun !!"],
+         "context_set": ""
+        },
+        {"tag": "ayrılma",
+         "patterns": ["by", "görüşürüz", "tekrar görüşmek üzere", "ben gidiyorum", "bay bay"],
+         "responses": ["görüşürüz:(", "tekrar konuşmak üzere", "bay bay"],
+         "context_set": ""
+        },
+        {"tag": "bilgi",
+         "patterns": ["Yapay zeka nedir", "Makine öğrenmesini anlatabilir misin","Derin öğrenme nedir"],
+          "responses": [ "Matematiksel ve istatistiksel yöntemler kullanarak mevcut verilerden çıkarımlar yapmayı sağlayan bir metod","makinelerin dünyayı ele geçirme planları"],
+         "context_set": ""
+        },
+        {"tag": "learn",
+         "patterns": ["Veri Bilimini nasıl öğrenebilirim", "Yapay zeka öğrenmeye nereden başlayabilirim", "Derin Öğrenme içi hangi kitaplar okunmalı"],
+         "responses": ["Online kurslar ile öğrenebilirsiniz","Deep Learning with python kitabını okuyabilirsiniz"],
+         "context_set": ""
+        }
+
+ ]
+}

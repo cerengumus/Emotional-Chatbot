@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Merhaba", "Orda biri var mı?", "Selam", "iyi günler"],
+         "responses": ["Merhaba!", "Tekrardan iyi günler!", "Merhaba, Nasıl yardım edebilirim?"],
+         "context_set": ""
+        },
+        {"tag": "greetingMore",
+         "patterns": [ "Nasılsın", "Naber"],
+         "responses": ["Ben iyiyim !, Peki ya sen?", "Ben iyiyim, sen?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns":["bye", "Güle güle", "Sonra görüşürüz", "Ayrılıyorum", "İyi Günler"],
+         "responses": ["Gitmenize üzüldük :(", "Sonra görüşürüz", "Güle güle!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["kaç yaşında", "John kaç yaşında", "kaç yaşında", "kaç yaşındasın", "yaş"],
+         "responses": ["25 yaşındayım!", "18 yaşındayım!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["adın ne", "sana ne söylemeliyim", "adın ne?"],
+         "responses": ["Bana bitirme botu diyebilirsiniz.", "Ben bitirme botu!", "Ben bitirme botu, chatbot."],
+         "context_set": ""
+        }
+   ]
+}
