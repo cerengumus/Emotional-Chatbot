@@ -1,0 +1,14 @@
+RUNNING:
+backend running:
+
+python ChatBotAPI.py
+
+hostname='192.168.154.1'
+
+POSTMAN CONTROLS:
+http://192.168.154.1:5000/chat
+VALUE : JSON DATA
+
+
+front-end:
+app running
